@@ -1,11 +1,14 @@
-# This is a blank project with a blank stack. 
+LAMP installation scripts
+The following have been targetted to install LAMP on UBUNTU.
 
-## The stack includes common utilities for development including tools for adding additional tools to your workspace.
+execute the script as follows
 
-In this workspace you can:
+To use the script:
+Provide the execute permission to the script by running:
 
-1. Add / remove additional files.
-2. Import additional projects from git or subversion.
-3. Install additional libraries and tools in the terminal.
-4. Author new commands that will executed in the runtime.
-5. Use SSH to connect remote clients.
+sudo chmod +x lamp-script.sh
+
+Then execute the script 
+sudo ./<location_of_scrip>/lamp-script.sh
+
+Thank you
