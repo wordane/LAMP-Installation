@@ -32,7 +32,7 @@ sudo mysql_secure_installation
 
 ###### PHP ######
 echo "Installing PHP"
-sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql php-curl php-cli php-dev mysql-client phpenmod mcrypt
+sudo apt-get -y install php libapache2-mod-php php-mcrypt php-mysql php-curl php-cli php-dev mysql-client phpenmod mcrypt
 
 # Restart apache
 echo "Restarting Apache"
